@@ -1,0 +1,119 @@
+/* VOID / PURPLE REIGN — EDIT SKIN for the built-in Xbox controller.
+   Select the built-in Xbox skin, then load this file as Edit CSS (not Custom CSS).
+   The viewer keeps its native Xbox input elements; this file changes their appearance. */
+:root { --vp-glow: #a94cff; --vp-bright: #e8c6ff; }
+body { background: transparent !important; }
+.controller.xbox,
+.controller.xbox.edit,
+.controller.edit,
+.edit .controller.xbox,
+.edit .controller {
+  width: 768px !important;
+  height: 512px !important;
+  box-sizing: border-box !important;
+  background: url("data:image/webp;base64,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") center center / 100% 100% no-repeat !important;
+  position: relative !important;
+  filter: drop-shadow(0 0 10px rgba(155, 65, 255, .42));
+}
+/* Match the existing live input layers to the artwork. */
+.controller.xbox .triggers, .controller.edit .triggers, .edit .controller .triggers {
+  position:absolute !important; left:14.5% !important; top:0 !important;
+  width:71% !important; height:8% !important;
+}
+.controller.xbox .trigger, .controller.edit .trigger, .edit .controller .trigger {
+  width:17% !important; height:100% !important; opacity:0 !important;
+}
+.controller.xbox .trigger.pressed, .controller.edit .trigger.pressed, .edit .controller .trigger.pressed {
+  opacity:.8 !important; background:rgba(174,91,255,.55) !important;
+  box-shadow:0 0 12px var(--vp-glow), 0 0 24px var(--vp-glow) !important;
+}
+.controller.xbox .bumpers, .controller.edit .bumpers, .edit .controller .bumpers {
+  position:absolute !important; left:15.5% !important; top:2% !important;
+  width:69% !important; height:5% !important;
+}
+.controller.xbox .bumper, .controller.edit .bumper, .edit .controller .bumper {
+  width:17% !important; height:100% !important; opacity:0 !important;
+}
+.controller.xbox .bumper.pressed, .controller.edit .bumper.pressed, .edit .controller .bumper.pressed {
+  opacity:1 !important; background:rgba(174,91,255,.52) !important;
+  box-shadow:0 0 10px var(--vp-glow), 0 0 20px var(--vp-glow) !important;
+}
+.controller.xbox .quadrant, .controller.edit .quadrant, .edit .controller .quadrant { display:none !important; }
+
+.controller.xbox .arrows, .controller.edit .arrows, .edit .controller .arrows {
+  position:absolute !important; left:38.5% !important; top:26% !important;
+  width:23% !important; height:9% !important;
+}
+.controller.xbox .back, .controller.xbox .start,
+.controller.edit .back, .controller.edit .start,
+.edit .controller .back, .edit .controller .start {
+  width:35% !important; height:100% !important; background:transparent !important;
+  border:1px solid transparent !important; border-radius:8px !important;
+}
+.controller.xbox .back.pressed, .controller.xbox .start.pressed,
+.controller.edit .back.pressed, .controller.edit .start.pressed,
+.edit .controller .back.pressed, .edit .controller .start.pressed {
+  border-color:var(--vp-bright) !important; box-shadow:0 0 12px var(--vp-glow) !important;
+}
+
+.controller.xbox .abxy, .controller.edit .abxy, .edit .controller .abxy {
+  position:absolute !important; left:62.5% !important; top:15.5% !important;
+  width:26% !important; height:31% !important;
+}
+.controller.xbox .button, .controller.edit .button, .edit .controller .button {
+  position:absolute !important; width:30% !important; height:37% !important;
+  border-radius:50% !important; background:transparent !important;
+  border:2px solid transparent !important; box-shadow:none !important;
+}
+.controller.xbox .button.a, .controller.edit .button.a, .edit .controller .button.a { left:27%; top:58%; }
+.controller.xbox .button.b, .controller.edit .button.b, .edit .controller .button.b { left:66%; top:29%; }
+.controller.xbox .button.x, .controller.edit .button.x, .edit .controller .button.x { left:0; top:29%; }
+.controller.xbox .button.y, .controller.edit .button.y, .edit .controller .button.y { left:27%; top:0; }
+.controller.xbox .button.pressed, .controller.edit .button.pressed, .edit .controller .button.pressed {
+  background:radial-gradient(circle,rgba(203,130,255,.72),rgba(128,40,235,.16) 68%,transparent 72%) !important;
+  border-color:var(--vp-bright) !important;
+  box-shadow:0 0 10px var(--vp-glow),0 0 22px var(--vp-glow),inset 0 0 8px var(--vp-bright) !important;
+}
+
+.controller.xbox .sticks, .controller.edit .sticks, .edit .controller .sticks {
+  position:absolute !important; left:18.5% !important; top:17% !important;
+  width:51% !important; height:43% !important;
+}
+.controller.xbox .stick, .controller.edit .stick, .edit .controller .stick {
+  position:absolute !important; width:27% !important; height:48% !important;
+  border-radius:50% !important; background:transparent !important;
+  border:2px solid transparent !important; box-shadow:none !important;
+}
+.controller.xbox .stick.left, .controller.edit .stick.left, .edit .controller .stick.left { left:0 !important; top:0 !important; }
+.controller.xbox .stick.right, .controller.edit .stick.right, .edit .controller .stick.right { left:69% !important; top:49% !important; }
+.controller.xbox .stick.pressed, .controller.edit .stick.pressed, .edit .controller .stick.pressed {
+  border-color:var(--vp-bright) !important;
+  box-shadow:0 0 10px var(--vp-glow),0 0 22px var(--vp-glow),inset 0 0 9px rgba(202,133,255,.65) !important;
+}
+
+.controller.xbox .dpad, .controller.edit .dpad, .edit .controller .dpad {
+  position:absolute !important; left:30.5% !important; top:41% !important;
+  width:16% !important; height:24% !important;
+}
+.controller.xbox .face, .controller.edit .face, .edit .controller .face {
+  position:absolute !important; background:transparent !important;
+  border:2px solid transparent !important; box-shadow:none !important;
+}
+.controller.xbox .face.up, .controller.xbox .face.down,
+.controller.edit .face.up, .controller.edit .face.down,
+.edit .controller .face.up, .edit .controller .face.down {
+  width:32% !important; height:40% !important; left:34% !important;
+}
+.controller.xbox .face.up, .controller.edit .face.up, .edit .controller .face.up { top:0 !important; }
+.controller.xbox .face.down, .controller.edit .face.down, .edit .controller .face.down { bottom:0 !important; }
+.controller.xbox .face.left, .controller.xbox .face.right,
+.controller.edit .face.left, .controller.edit .face.right,
+.edit .controller .face.left, .edit .controller .face.right {
+  width:40% !important; height:32% !important; top:34% !important;
+}
+.controller.xbox .face.left, .controller.edit .face.left, .edit .controller .face.left { left:0 !important; }
+.controller.xbox .face.right, .controller.edit .face.right, .edit .controller .face.right { right:0 !important; }
+.controller.xbox .face.pressed, .controller.edit .face.pressed, .edit .controller .face.pressed {
+  border-color:var(--vp-bright) !important; background:rgba(160,76,255,.45) !important;
+  box-shadow:0 0 9px var(--vp-glow),0 0 18px var(--vp-glow) !important;
+}
